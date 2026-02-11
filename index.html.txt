@@ -83,7 +83,7 @@
     </div>
 
     <div class="slider" id="slider">
-      <img id="slideImg" src="photo1.jpg" alt="Our Memories">
+      <img id="slideImg" src="photo1.jpeg" alt="Our Memories">
     </div>
 
     <audio id="song" src="song.mp3" loop></audio>
@@ -98,10 +98,10 @@
     const song = document.getElementById("song");
 
     const photos = [
-      "photo1.jpg",
-      "photo2.jpg",
-      "photo3.jpg",
-      "photo4.jpg"
+      "photo1.jpeg",
+      "photo2.jpeg",
+      "photo3.jpeg",
+      "photo4.jpeg"
     ];
 
     let index = 0;
@@ -132,4 +132,5 @@
   </script>
 
 </body>
+
 </html>
